@@ -5,6 +5,12 @@ body, html { height: 100% }
 
 body { max-width: 1600px; margin: 0 auto }
 
+body{ 
+   background-color: #0e2439;
+   
+   color:#cbc3b2
+   }
+
 /* ==== PAGE WIDTH  ==== */
 
 /* Mobiles */
@@ -25,12 +31,13 @@ body { max-width: 1600px; margin: 0 auto }
 
 /* ==== PARAGRAPHS ==== */
 
-p { 
-   ...
+p 
+   {
+   font-family: serif;
+   font-weight: bold;
    font-size: calc(15px + (18 - 15) * ((100vw - 320px)/(1600 - 320)));
-   ...
-
-}
+   letter-spacing: -1px;
+   }
  
  /* Mobiles */
  @media all and (max-width:767px) {
@@ -48,39 +55,13 @@ p {
     }
  }
 
-/* ==== BULLETS ==== */
-
-ul li, ol li {
-    font-family: sans-serif;
-    font-weight: normal;
-    font-size: calc(15px + (18 - 15) * ((100vw - 320px)/(1600 - 320)));
-}
-
-/* Mobiles */
-@media all and (max-width:767px) {
-    ul, ol { margin-left: 5% }
-    ul li, ol li {
-       line-height: 1.5;
-       margin-bottom: 5%;
-    }
-}
- 
-/* Desktop */
-@media all and (min-width:768px) {
-    ul, ol { margin-left: 2% }
-    ul li, ol li {
-       line-height: 1.6;
-       margin-bottom: 2%;
-    }
-}
-
- /* ==== HEADINGS ==== */
+/* ==== HEADINGS ==== */
 
 h1 {
-   ...
+   font-family: serif;
+   font-weight: bold;
    font-size: calc(42px + (64 - 42) * ((100vw - 320px)/(1600 - 320)));
-  ...
-
+   letter-spacing: -1px;
 }
 
 
@@ -104,10 +85,10 @@ h1 {
 
 
 h2 {
-   ...
-   font-size: calc(32px + (48 - 32) * ((100vw - 320px)/(1600 - 320)));
-   ...
-
+   font-family: serif;
+   font-weight: bold;
+   font-size: font-size: calc(32px + (48 - 32) * ((100vw - 320px)/(1600 - 320)));
+   letter-spacing: -1px;
 }
 
 
@@ -131,9 +112,11 @@ h2 {
 
 
 h3 {
-   ...
-   font-size: calc(22px + (28 - 22) * ((100vw - 320px)/(1600 - 320)));
-   ...
+   font-family: serif;
+   font-weight: bold;
+   font-size: font-size: calc(22px + (28 - 22) * ((100vw - 320px)/(1600 - 320)));
+   letter-spacing: -1px;
+   
 
 }
 
@@ -157,4 +140,28 @@ h3 {
 }
  
 
- 
+ /* ==== BULLETS ==== */
+
+ul li, ol li {
+   font-family: sans-serif;
+   font-weight: normal;
+   font-size: calc(15px + (18 - 15) * ((100vw - 320px)/(1600 - 320)));
+}
+
+/* Mobiles */
+@media all and (max-width:767px) {
+   ul, ol { margin-left: 5% }
+   ul li, ol li {
+      line-height: 1.5;
+      margin-bottom: 5%;
+   }
+}
+
+/* Desktop */
+@media all and (min-width:768px) {
+   ul, ol { margin-left: 2% }
+   ul li, ol li {
+      line-height: 1.6;
+      margin-bottom: 2%;
+   }
+}
