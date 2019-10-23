@@ -5,11 +5,8 @@ body, html { height: 100% }
 
 body { max-width: 1600px; margin: 0 auto }
 
-body{ 
-   background-color: #0e2439;
-   
-   color:#cbc3b2
-   }
+img { display: block; width: 100%; height: auto }
+
 
 /* ==== PAGE WIDTH  ==== */
 
@@ -28,41 +25,15 @@ body{
        padding-right: 20%
     }
 }
-
-/* ==== PARAGRAPHS ==== */
-
-p 
-   {
-   font-family: 'Lato', serif;
-   font-weight: bold;
-   font-size: calc(15px + (18 - 15) * ((100vw - 320px)/(1600 - 320)));
-   letter-spacing: -1px;
-   }
-
-
- /* Mobiles */
- @media all and (max-width:767px) {
-    p {
-       line-height: 1.5;
-       margin-bottom: 5%;
-    }
- }
- 
- /* Desktop */
- @media all and (min-width:768px) {
-    p {
-       line-height: 1.6;
-       margin-bottom: 2%;
-    }
- }
+  
 
 /* ==== HEADINGS ==== */
 
 h1 {
-   font-family: 'Playfair Display',serif;
-   font-weight: normal;
-   font-size: calc(42px + (64 - 42) * ((100vw - 320px)/(1600 - 320)));
-   letter-spacing: -1px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: calc(42px + (64 - 42) * ((100vw - 320px)/(1600 - 320)));
+    letter-spacing: -1px;
 }
 
 
@@ -86,10 +57,9 @@ h1 {
 
 
 h2 {
-   font-family: 'Playfair Display',serif;
-   font-weight: normal;
+    font-family: 'Playfair Display', serif;
+   font-weight: bold;
    font-size: calc(32px + (48 - 32) * ((100vw - 320px)/(1600 - 320)));
-   letter-spacing: -1px;
 }
 
 
@@ -113,11 +83,9 @@ h2 {
 
 
 h3 {
-   font-family: 'Playfair Display',serif;
-   font-weight: normal;
-   font-size: calc(32px + (48 - 32) * ((100vw - 320px)/(1600 - 320)));
-   letter-spacing: -1px;
-   
+   font-family: 'Playfair Display', serif;
+   font-weight: bold;
+   font-size: calc(22px + (28 - 22) * ((100vw - 320px)/(1600 - 320)));
 }
 
 
@@ -138,30 +106,57 @@ h3 {
       margin-bottom: 1%;
    }
 }
+
+
+
+ /* ==== PARAGRAPHS ==== */
+
+p {
+    font-family: 'Lato', serif;
+    font-weight: normal;
+    font-size: calc(15px + (18 - 15) * ((100vw - 320px)/(1600 - 320)));
+ }
+ 
+ 
+ /* Mobiles */
+ @media all and (max-width:767px) {
+    p {
+       line-height: 1.5;
+       margin-bottom: 5%;
+    }
+ }
+ 
+ /* Desktop */
+ @media all and (min-width:768px) {
+    p {
+       line-height: 1.6;
+       margin-bottom: 2%;
+    }
+ }
  
 
  /* ==== BULLETS ==== */
 
 ul li, ol li {
-   font-family: 'Lato', sans-serif;
-   font-weight: normal;
-   font-size: calc(15px + (18 - 15) * ((100vw - 320px)/(1600 - 320)));
+    font-family: 'Lato', serif;
+    font-weight: normal;
+    font-size: calc(15px + (18 - 15) * ((100vw - 320px)/(1600 - 320)));
 }
 
 /* Mobiles */
 @media all and (max-width:767px) {
-   ul, ol { margin-left: 5% }
-   ul li, ol li {
-      line-height: 1.5;
-      margin-bottom: 5%;
-   }
+    ul, ol { margin-left: 5% }
+    ul li, ol li {
+       line-height: 1.5;
+       margin-bottom: 5%;
+    }
 }
-
+ 
 /* Desktop */
 @media all and (min-width:768px) {
-   ul, ol { margin-left: 2% }
-   ul li, ol li {
-      line-height: 1.6;
-      margin-bottom: 2%;
-   }
+    ul, ol { margin-left: 2% }
+    ul li, ol li {
+       line-height: 1.6;
+       margin-bottom: 2%;
+    }
 }
