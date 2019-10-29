@@ -5,15 +5,6 @@ body, html { height: 100% }
 
 body { max-width: 1600px; margin: 0 auto }
 
-img { display: block; width: 100%; height: auto }
-
-body{ 
-    background-color: #282367;
-    
-    color:seashell
-    }
-
-
 /* ==== PAGE WIDTH  ==== */
 
 /* Mobiles */
@@ -31,7 +22,7 @@ body{
        padding-right: 20%
     }
 }
-  
+
 
 /* ==== HEADINGS ==== */
 
@@ -63,9 +54,11 @@ h1 {
 
 
 h2 {
-    font-family: 'Playfair Display', serif;
+   font-family: 'Playfair Display', serif;
    font-weight: bold;
    font-size: calc(32px + (48 - 32) * ((100vw - 320px)/(1600 - 320)));
+   
+
 }
 
 
@@ -114,7 +107,6 @@ h3 {
 }
 
 
-
  /* ==== PARAGRAPHS ==== */
 
 p {
@@ -140,7 +132,6 @@ p {
     }
  }
  
-
  /* ==== BULLETS ==== */
 
 ul li, ol li {
@@ -167,17 +158,18 @@ ul li, ol li {
     }
 }
 
-
- /* ==== TEXT BOXES ==== */
- .important-note-1 { 
+/* ==== TEXT BOXES ==== */
+.important-note-1 { 
     margin: 42px 0 42px 0;
     padding: 14px 14px 14px 14px;
     border-style: solid;
-    border-width: 1px;
-    border-color: #fff;
-    background-color: #0dd6a4;
-    
+    border-width: 1px
 }
+
+.important-note-1 h3 { margin-top: 0 }
+
+.important-note-1 p { margin-bottom: 0  }
+
 
 .important-note-2 { 
     margin: 42px 0 42px 0;
@@ -186,19 +178,12 @@ ul li, ol li {
     border-top-width: 8px;
     border-bottom-width: 4px;
     border-left-width: 0;
-    border-right-width: 0;
-    border-top-color: #fff;
-    border-bottom-color: #fff;
+    border-right-width: 0
 }
 
-.important-note-2 h3 { margin-top: 0; color:rgb(255, 255, 255); }
+.important-note-2 h3 { margin-top: 0 }
 
-.important-note-2 p { margin-bottom: 0; color: #0dd6a4; }
-
-
-.important-note-1 h3 { margin-top: 0; color:#fff (9, 201, 35); }
-
-.important-note-1 p { margin-bottom: 0; color: #fff;  }
+.important-note-2 p { margin-bottom: 0  }
 
 
 .important-note-3 { 
@@ -208,26 +193,22 @@ ul li, ol li {
     border-top-width: 0;
     border-bottom-width: 0;
     border-left-width: 20px;
-    border-right-width: 0;
-    border-left-color: #E66465;
-    background-color: rgb(129, 39, 42);
-
+    border-right-width: 0
 }
 
 .important-note-3 h3 { margin-top: 0 }
 
 .important-note-3 p { margin-bottom: 0  }
 
+
 .important-note-4 { 
     margin: 42px 0 42px 0;
-    padding: 14px 14px 20px 14px;
+    padding: 14px 14px 24px 14px;
     border-style: solid;
     border-width: 3px;
-    border-radius: 10px;
-    
+    border-radius: 10px
 }
 
-.important-note-4 h3 { margin-top: 0; color: #fff; }
+.important-note-4 h3 { margin-top: 0 }
 
-.important-note-4 p { margin-bottom: 0; color: #0dd6a4;  }
-
+.important-note-4 p { margin-bottom: 0  }
