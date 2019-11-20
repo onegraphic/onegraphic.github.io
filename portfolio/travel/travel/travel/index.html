@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Travel Agency Hme Page | IBAT Portoflio Project | Mary Smith</title>
+
+	<meta name="description" content="IBAT Tours is an award-winning travel agency that has successfully provided happy holiday experiences for thousands of customers for over a decade.">
+
+	<meta name="author" content="Mary Smith">
+
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,700,700i%7CRoboto+Slab:500,700&display=swap" rel="stylesheet">
+
+	<!-- Styles for Cookie Consent Popup Message  -->
+	<link href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" rel="stylesheet">
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122243940-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-122243940-1');
+	</script>
+
+	<!-- Link to icons for Font Awesome 5 -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+ </head>
+
+
+</head>
+
+
+<body id="top-of-page">
+
+		<!-- Begin desktop menu -->
+		<div class="container-menu-desktop menu-dark">
+			<a href="index.html"><img src="assets/img/menus-logo.png"></a>
+			<ul>
+				<li><a href="index.html">Home </a></li>
+				<li><a href="destinations.html">Destinations</a></li>
+				<li><a href="about-us.html">About us</a></li>
+			</ul>
+		</div>
+		<!-- End desktop menu -->
+	
+	
+		<!-- Begin menu mobile -->
+	
+		<div class="container-menu-bar-mobile menu-dark">
+			<div class="item-logo">
+				<img src="assets/img/menus-logo.png" alt="logo">
+			</div>
+			<div class="item-icon">
+				<div class="bar1"></div>
+				<div class="bar2"></div>
+				<div class="bar3"></div>
+			</div>
+		</div>
+	
+		<div class="container-menu-options-mobile menu-dark">
+			<ul>
+				<li><a href="#">Option 1</a></li>
+				<li><a href="#">option 2</a></li>
+				<li><a href="#">Option 3</a></li>
+				<li><a href="#" class="btn-cta">CTA Button</a></li>
+			</ul>
+		</div>
+		<!-- end menu mobile -->
+
+
+<body>
+
+	<!-- Begin hero block -->
+	<div class="container-hero-block home-page">
+		<div class="slide-in-top">
+			<h1>IBAT Tours</h1>
+			<h2>Going further and faster</h2>
+		</div>
+	</div>
+	<!-- End hero block -->
+	
+
+	<!-- Begin parent flexbox container for one column layout (.item-1) on all screens -->
+	<div class="container-flexbox bg-light">
+		<div class="item-1">
+			<h2>You need a holiday</h2>
+			<p>We are an <a href="about-us.html">award-winning travel agency</a> that has successfully provided happy holiday experiences for thousands of customers for over a decade. Whether you are planning a short getaway break or thinking of a longer, long-haul vacation, <a href="destinations.html">we have something for you</a>.</p>
+		</div>
+	</div><!-- End parent flexbox container -->
+
+
+	<!-- Begin parent flexbox container for one column layout (.item-1) on all screens -->
+	<div class="container-flexbox bg-orange">
+		<div class="item item-1">
+			<h2>Special Offers</h2>
+		</div>
+	</div><!-- End parent flexbox container -->
+
+
+	<!-- Begin parent flexbox container for three-column layout (.item-3) on desktops and one-column layout on mobiles -->
+	<div class="container-flexbox bg-orange">
+
+		<div class="item-3">
+			<img src="assets/img/new-york.jpg"  alt="New York">
+			<h3>New York</h3>
+			<p>Its iconic sites include skyscrapers such as the Empire State Building, the sprawling Central Park, and neon-lit Times Square.</p>
+		</div>
+
+		<div class="item-3">
+			<img src="assets/img/washington.jpg"  alt="Washington">
+			<h3>Washington</h3>
+			<p>Located on the Potomac River and contains such impressive buildings as the Capitol, White House and Supreme Court.</p>
+		</div>
+
+		<div class="item-3">
+			<img src="assets/img/ayers-rock.jpg"  alt="Ayers Rock">
+			<h3>Ayer's Rock</h3>
+			<p>Traditionally known as Uluru, Ayer's Rock is a world-famous sandstone monolith in the heart of Australia.</p>
+		</div>
+
+	</div><!-- End parent flexbox container -->
+
+
+	<!-- Begin JavaScript code showing/hiding slide-out menu -->
+    <script>
+			document.querySelector('.item-icon').addEventListener('click', toggleMobileMenu)
+		
+			function toggleMobileMenu() {
+				//toggle hamburger icon
+				let elemIcon = document.querySelector('.item-icon');
+				elemIcon.classList.toggle("change");
+			
+				//if mobile menu currently closed, open menu.
+				if (elemIcon.classList.contains('change')) {
+					document.querySelector(".container-menu-options-mobile").style.right = "0";
+				}
+				//if mobile menu currently open, close menu.
+				else {
+					document.querySelector(".container-menu-options-mobile").style.right = "-320px";
+				}
+			}
+		</script>
+		<!-- End JavaScript code showing/hiding slide-out menu -->
+
+		<!-- Begin footer -->
+	<div class="container-footer">
+
+			<div class="item-3">
+	
+				<h4>SITE MAP</h4>
+				<p><i class="fas fa-home fa-fw"></i><a href="index.html">Home</a></p>
+				<p><i class="far fa-file-alt fa-fw"></i><a href="index.html">Portfolio</a></p>
+				<p><i class="fas fa-lock fa-fw"></i><a href="privacy.html">Privacy</a></p>
+			
+			</div>
+	
+			<div class="item-3">
+				<h4>ABOUT ME</h4>
+				<p>Hi, I'm Mary Smith. I'm a web designer and developer.</p>
+				
+				<p>I created this sample web page to showcase some of my digital creation skills.</p>
+			</div>
+	
+			<div class="item-3">
+				<h4>CONTACT</h4>
+				<p><i class="far fa-envelope fa-fw"></i><a href="reecewardrop@gmail.com">Email</a></p>
+				<p><i class="fab fa-github-square fa-fw"></i><a href="https://www.github.com/onegraphic" target="_blank">GitHub</a></p>
+				<p><i class="fab fa-linkedin fa-fw"></i><a href="https://www.linkedin.com/in/reece-wardrop/" target="_blank">Linkedin</a></p>
+			</div>
+		</div>
+		
+		<!-- End footer -->
+	
+</body>
+</html>
