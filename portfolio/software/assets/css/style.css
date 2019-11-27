@@ -142,7 +142,7 @@ html {scroll-behavior: smooth}
 
 
 /*== Dark background menu == */
-.menu-dark { background-color: red }
+.menu-dark { background-color: #5ba745 }
 .menu-dark .item-icon .bar1, 
 .menu-dark .item-icon .bar2, 
 .menu-dark .item-icon .bar3 {
