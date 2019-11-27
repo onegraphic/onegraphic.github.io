@@ -142,7 +142,7 @@ html { scroll-behavior: smooth }
 
 
 /*== Dark background menu == */
-.menu-dark { background-color: red }
+.menu-dark { background-color: white }
 .menu-dark .item-icon .bar1, 
 .menu-dark .item-icon .bar2, 
 .menu-dark .item-icon .bar3 {
@@ -164,7 +164,7 @@ html { scroll-behavior: smooth }
 	.menu-light .item-icon .bar1, 
 	.menu-light .item-icon .bar2, 
 	.menu-light .item-icon .bar3 {
-		background-color: red;
+		background-color: #ff5000 ;
 		
 }
 
