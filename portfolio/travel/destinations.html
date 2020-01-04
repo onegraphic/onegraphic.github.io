@@ -5,11 +5,11 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<title>Travel Agency Destinations Page | IBAT Portoflio Project | Mary Smith</title>
+	<title>Travel Agency Destinations Page | IBAT Portfolio Project | Reece Wardrop</title>
 
 	<meta name="description" content="IBAT Tours offers a wide range of must-see destinations across three continents. No one takes you to more places at such affordable prices.">
 
-	<meta name="author" content="Mary Smith">
+	<meta name="author" content="Reece Wardrop">
 
 	<link rel="stylesheet" href="assets/css/style.css">
 
@@ -20,12 +20,12 @@
 	<link href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" rel="stylesheet">
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122243940-1"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-148717985-11"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
 		function gtag(){dataLayer.push(arguments);}
 		gtag('js', new Date());
-		gtag('config', 'UA-122243940-1');
+		gtag('config', 'UA-148717985-1');
 	</script>
 
 </head>
@@ -33,42 +33,6 @@
 
 
 <body>
-
-	<!-- Begin desktop menu -->
-<div class="container-menu-desktop menu-dark">
-        <a href="../../index.html"><img src="assets/img/menus-logo.png"></a>
-        <ul>
-            <li><a href="#Features">Features</a></li>
-            <li><a href="#Benefits">Benefits</a></li>
-            <li><a href="#Testimonials">Testimonials</a></li>
-        </ul>
-    </div>
-    <!-- End desktop menu -->
-
-
-    <!-- Begin menu mobile -->
-
-    <div class="container-menu-bar-mobile menu-dark">
-        <div class="item-logo">
-            <img src="assets/img/one graphic.png" alt="logo">
-        </div>
-        <div class="item-icon">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-        </div>
-    </div>
-
-    <div class="container-menu-options-mobile menu-dark">
-        <ul>
-            <li><a href="#">Option 1</a></li>
-            <li><a href="#">option 2</a></li>
-            <li><a href="#">Option 3</a></li>
-            <li><a href="#" class="btn-cta">CTA Button</a></li>
-        </ul>
-    </div>
-    <!-- end menu mobile -->
-
 
 	<!-- Begin hero block -->
 	<div class="container-hero-block destinations-page">
@@ -81,16 +45,16 @@
 
 
 	<!-- Begin parent flexbox container for one column layout (.item-1) on all screens -->
-	<div class="container-flexbox bg-light">
+	<div class="container-flexbox">
 		<div class="item-1">
 			<h2>Taking you there</h2>
-			<p>IBAT Tours offers a wide range of must-see destinations across three continents. No one takes you to more places at such affordable prices.</p>
+			<p><a href="index.html">IBAT Tours</a> offers a wide range of must-see destinations across three continents. No one takes you to more places at such affordable prices.</p>
 		</div>
 	</div><!-- End parent flexbox container -->
 
 
 	<!-- Begin parent flexbox container for one column layout (.item-1) on all screens -->
-	<div class="container-flexbox bg-orange">
+	<div class="container-flexbox bg-orange no-padding-bottom">
 		<div class="item-1">
 			<h2>Europe</h2>
 			<p>Enjoy a city break at Europe's top locations. Lowest prices for travel and accommodation.</p>
@@ -128,7 +92,7 @@
 
 
 	<!-- Begin parent flexbox container for one column layout (.item-1) on all screens -->
-	<div class="container-flexbox bg-light">
+	<div class="container-flexbox no-padding-bottom">
 		<div class="item-1">
 			<h2>America</h2>
 			<p>Long-haul holidays at prices you won't believe. See what America has to offer.</p>
@@ -136,7 +100,7 @@
 	</div><!-- End parent flexbox container -->
 
 
-	<div class="container-flexbox bg-light">
+	<div class="container-flexbox">
 
 		<div class="item-4-2">
 			<img src="assets/img/new-york.jpg" alt="New York">
@@ -166,7 +130,7 @@
 
 
 	<!-- Begin parent flexbox container for one column layout (.item-1) on all screens -->
-	<div class="container-flexbox bg-orange">
+	<div class="container-flexbox bg-orange no-padding-bottom">
 		<div class="item-1">
 			<h2>Australia</h2>
 			<p>Take a trip to the Land Down Under. Australia's premier destinations are waiting for you.</p>
@@ -201,26 +165,23 @@
 
 	</div><!-- End parent flexbox container -->
 
-	<!-- Begin JavaScript code showing/hiding slide-out menu -->
-    <script>
-        document.querySelector('.item-icon').addEventListener('click', toggleMobileMenu)
-    
-        function toggleMobileMenu() {
-            //toggle hamburger icon
-            let elemIcon = document.querySelector('.item-icon');
-            elemIcon.classList.toggle("change");
-        
-            //if mobile menu currently closed, open menu.
-            if (elemIcon.classList.contains('change')) {
-                document.querySelector(".container-menu-options-mobile").style.right = "0";
-            }
-            //if mobile menu currently open, close menu.
-            else {
-                document.querySelector(".container-menu-options-mobile").style.right = "-320px";
-            }
-        }
-    </script>
-    <!-- End JavaScript code showing/hiding slide-out menu -->
+	<!-- JavaScript for Cookie Consent Popup Message -->
+	<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+	<script>
+	window.cookieconsent.initialise({
+	  	"palette": {
+			"popup": {
+				"background": "#000"
+			},
+			"button": {
+				"background": "#f1d600"
+			}
+		},
+	  	"content": {
+			"href": "https://onegraphic.github.io/privacy.html"
+		}
+	});
+	</script>
 
 </body>
 </html>
