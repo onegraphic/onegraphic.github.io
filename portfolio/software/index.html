@@ -5,235 +5,195 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<title>CSS Flexbox Columns Showcase | IBAT Portoflio Project | Mary Smith</title>
+	<title>Analytics Software | IBAT Web Design Portfolio Project | Reece Wardrop</title>
 
-	<meta name="description" content="Showcase of CSS Flexbox columns.">
+	<meta name="description" content="IBAT Analytics tells you all you need to know about your website traffic, without tracking or storing visitors' personal information.">
+	
+	<meta name="author" content="Mary Smith">
 
-	<meta name="author" content="Reece Wardrop">
+	<link href="assets/css/style.css" rel="stylesheet">
 
-	<link rel="stylesheet" href="assets/css/style.css">
-
+	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,900,900i&display=swap" rel="stylesheet">
 
 	<!-- Link to icons for Font Awesome 5 -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
 
-	<body id="top-of-page">
-
-
+	<!-- Styles for Cookie Consent Popup Message  -->
+	<link href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" rel="stylesheet">
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148717985-1"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-148717985-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-148717985-1');
+	</script>
 
-    gtag('config', 'UA-148717985-1');
-    </script>
-
-
-
+</head>
 
 
-<!-- Begin desktop menu -->
-<div class="container-menu-desktop menu-dark">
-        <a href="../../index.html"><img src="assets/img/menus-logo.png"></a>
-        <ul>
-            <li><a href="#Features">Features</a></li>
-            <li><a href="#Benefits">Benefits</a></li>
-            <li><a href="#Testimonials">Testimonials</a></li>
-        </ul>
-    </div>
-    <!-- End desktop menu -->
+<body>
 
-
-    <!-- Begin menu mobile -->
-
-    <div class="container-menu-bar-mobile menu-dark">
-        <div class="item-logo">
-            <img src="assets/img/onegraphic.png" alt="logo">
-        </div>
-        <div class="item-icon">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-        </div>
-    </div>
-
-    <div class="container-menu-options-mobile menu-dark">
-        <ul>
-            <li><a href="#">Option 1</a></li>
-            <li><a href="#">option 2</a></li>
-            <li><a href="#">Option 3</a></li>
-            <li><a href="#" class="btn-cta">CTA Button</a></li>
-        </ul>
-    </div>
-    <!-- end menu mobile -->
-
-	<div class="container-flexbox" id="Benefits">
-		<div class="item-2">
-			<h1>Putting the tricks into user analytics</h1>
+	<!-- Begin hero block -->
+	<div class="container-flexbox hero-block">
+		<div class="item item-2">
+			<h1>Putting the tricks into web analytics</h1>
 			<p>IBAT Analytics helps you boost your business impact.</p>
+			<a class="btn-cta" href="#free-trial">Try it free</a>
 		</div>
-		<div class="item-2">
-			<img src="assets/img/hero-image.png" alt="image">
+		<div class="item item-2">
+			<img src="assets/img/hero-image.png" alt="hero image">
 		</div>
 	</div>
+	<!-- End hero block -->
 
+	<!-- Begin parent flexbox container for one column layout (.item-1) on all screens -->
 	<div class="container-flexbox bg-green">
-		<div class="item item-1">
-			<p class="big-text">IBAT Analytics has been featured on <a href="#">Fast Company</a>, <a href="#">Product Hunt</a> and <a href="#">HackerNews</a> for being a simple and easy-to-use alternative to Google Analytics</p>
+		<div class="item-1">
+			<p class="big-text">IBAT Analytics has been featured on <a href="https://www.fastcompany.com/" target="_blank">Fast Company</a>, <a href="https://www.producthunt.com/" target="_blank">Product Hunt</a> and <a href="https://news.ycombinator.com/" target="_blank">HackerNews</a> for being a simple and easy-to-use alternative to Google Analytics.</p>
 		</div>
-	</div>
+	</div><!-- End parent flexbox container -->
 
-
-	<div class="container-flexbox" id="Features">
-		<div class="item item-1">
+	<!-- Begin parent flexbox container for one column layout (.item-1) on all screens -->
+	<div class="container-flexbox bg-light-gray">
+		<div class="item-1">
 			<h2>What we offer</h2>
-			<p>Aenean mattis quam dolor, sit amet imperdiet risus consectetur dictum. Nullam vehicula tortor vel mattis ultricies.</p>
+			<p>Say 'Hello' to a simple yet powerful user analytics system. IBAT Analytics tells you all you need to know about your website traffic, without tracking or storing your visitors' personal information. </p>
 		</div>
-	</div>
+	</div><!-- End parent flexbox container -->
 
-	<div class="container-flexbox">
+	<!-- Begin parent flexbox container for three-column layout (.item-3) on desktops and one-column layout on mobiles -->
+	<div class="container-flexbox bg-light-gray">
 
-		<div class="item-3">
-			<img src="assets/img/charts.png"  alt="One screen">
+		<div class="item-3 smaller-margin-bottom">
+			<img src="assets/img/charts.png" alt="One screen">
 			<h3>One screen</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempor leo ipsum, vel tristique eros pretium non. Donec ultricies lacus eu commodo egestas.</p>
+			<p>All your analytics essentials at-a-glance on one single, clutter-free screen: top pages, page views, referrers, browser screen sizes and more.</p>
 		</div>
 
-		<div class="item-3">
-			<img src="assets/img/graph.png"  alt="Cookie-less">
+		<div class="item-3 smaller-margin-bottom">
+			<img src="assets/img/mobile.png" alt="Cookie-less">
 			<h3>Cookie-less</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempor leo ipsum, vel tristique eros pretium non. Donec ultricies lacus eu commodo egestas.</p>		</div>
-
-		<div class="item-3">
-			<img src="assets/img/forms.png"  alt="Know your KPIs">
-			<h3>Know your KPIs</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempor leo ipsum, vel tristique eros pretium non. Donec ultricies lacus eu commodo egestas.</p>
+			<p>You won't need to distract your website visitors with pesky messages about cookie tracking. And IBAT Analytics is fully GDPR compliant too.</p>
 		</div>
 
-	</div><!-- end container-flexbox -->
+		<div class="item-3 smaller-margin-bottom">
+			<img src="assets/img/forms.png" alt="Know your KPIs">
+			<h3>Quick set-up</h3>
+			<p>Just add two lines of JavaScript to your web pages - and you're done! React, Angular, Vue, Svelte and other modern front-end frameworks fully supported.</p>
+		</div>
+	</div><!-- End parent flexbox container -->
 
-
-	<div class="container-flexbox">
+	<!-- Begin parent flexbox container for one column layout (.item-1) on all screens -->
+	<div class="container-flexbox bg-light-gray">
 		<div class="item-1">
 			<h2>How you benefit</h2>
-			<p>Suspendisse pulvinar ante massa. Praesent ullamcorper pharetra placerat. Donec id orci ac ante porttitor congue id ut mauris.</p>
+			<p>IBAT Analytics helps you focus on what's important: your business.</p>
 		</div>
-	</div>
+	</div><!-- End parent flexbox container -->
 
-
-
-	<div class="container-flexbox">
+	<!-- Begin parent flexbox container for three-column layout (.item-3) on desktops and one-column layout on mobiles -->
+	<div class="container-flexbox bg-light-gray">
 
 		<div class="item-3">
-			<img src="assets/img/project.png"  alt="Grow your businesse">
-			<h3>Grow your business</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempor leo ipsum, vel tristique eros pretium non. Donec ultricies lacus eu commodo egestas.</p>
-		</div>
-
-		<div class="item-3">
-			<img src="assets/img/data.png"  alt="Reader engagement">
-			<h3>Reader engagement</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempor leo ipsum, vel tristique eros pretium non. Donec ultricies lacus eu commodo egestas.</p>
-		</div>
-
-		<div class="item-3">
-			<img src="assets/img/trends.png"   alt="content performancee">
+			<img src="assets/img/trends.png" alt="content performancee">
 			<h3>Measure content performance</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempor leo ipsum, vel tristique eros pretium non. Donec ultricies lacus eu commodo egestas.</p>
+			<p>Discover what's popular on your website, and what needs to improve. All from one, easy-to-navigate, blazingly-fast dashboard screen.</p>
 		</div>
 
+		<div class="item-3">
+			<img src="assets/img/project.png" alt="Grow your businesse">
+			<h3>Grow your business</h3>
+			<p>Get actionable insights with real-time and historical data to guide evidence-based decision-making and content optimisation across your entire website.</p>
+		</div>
 
-	</div><!-- end container-flexbox -->
+		<div class="item-3">
+			<img src="assets/img/data.png" alt="Reader engagement">
+			<h3>Be future-ready</h3>
+			<p>Our auto-scaling web servers handle billions of page views. So you don't need to worry about sudden traffic spikes impacting your website's performance.</p>
+		</div>
 
+	</div><!-- End parent flexbox container -->
 
-	<div class="container-flexbox" id="Testimonials">
+	<!-- Begin parent flexbox container for one column layout (.item-1) on all screens -->
+	<div class="container-flexbox bg-green">
+		<div class="item-1">
+			<img src="assets/img/dashboard.png" alt="Analytics dashboard">
+		</div>
+	</div><!-- End parent flexbox container -->
+	
+	<!-- Begin parent flexbox container for one column layout (.item-1) on all screens -->
+	<div class="container-flexbox bg-light-gray">
 		<div class="item-1">
 			<h2>Happy users</h2>
-			<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+			<p>Join the 1,000s of delighted customers from every sector of business around the world who are using IBAT Analytics to drive their future success.</p>
 		</div>
-	</div>
+	</div><!-- End parent flexbox container -->
 
-	<div class="container-flexbox happy-users">
+	<!-- Begin parent flexbox container for three-column layout (.item-3) on desktop and one-column layout on mobiles -->
+	<div class="container-flexbox bg-light-gray happy-users">
 
 		<div class="item-3">
-			<img src="assets/img/face-4.png" class="img-circle"  alt="content performancee">
+			<img src="assets/img/face-2.png"  alt="Joe Bloggs">
 			<p><i>"Excellent service"</i></p>
 			<p><b>Joe Bloggs</b></p>
 		</div>
 
 		<div class="item-3">
-			<img src="assets/img/face-5.png"  class="img-circle"  alt="content performancee">
+			<img src="assets/img/face-1.png"  alt="Mary Murphy">
 			<p><i>"Best SAAS platform"</i></p>
 			<p><b>Mary Smith</b></p>
 		</div>
 
 		<div class="item-3">
-			<img src="assets/img/face-7.png" class="img-circle"   alt="content performancee">
+			<img src="assets/img/face-3.png" alt="Simon Smith">
 			<p><i>"Simple and affordable"</i></p>
 			<p><b>Simon Murphy</b></p>
 		</div>
 
-	</div><!-- end container-flexbox -->
+	</div><!-- End parent flexbox container -->
 
 
-<!-- Begin HTML footer -->
+<!-- Begin container for email signup form -->
+<div class="container-form-email-signup" id="free-trial">
 
-	<div class="container-footer">
+		<h3>Start your free trial</h3>
+        <p>Enjoy unlimited access for 14 days. No credit card required.</p>
 
-		<div class="item-3">
+        <!-- Forn begins here -->
+		<form id="email-signup-form" name="email-signup-form" accept-charset="utf-8"  method="post" action="https://formspree.io/reecewardrop@gmail.com">
+			<div class="flex-row">
+				<label for="email-address">Email:</label>
+                <input type="text" id="email-address" name="email-address" placeholder="Your email address" maxlength="80" autocapitalize="none" required>
+                <input type="hidden" name="_subject" id="email-subject" value="Email Signup Form Submission">
+				<button id="btn-submit" type="submit" class="btn-submit">Try it free <i class="fas fa-arrow-right"></i></button>
+			</div>
+		</form>
+        <!-- Form ends here -->
 
-			<h4>Site Map</h4>
-			<p><i class="fas fa-home fa-fw"></i><a href="../../index.html">Home</a></p>
-			<p><i class="fas fa-file-alt fa-fw"></i><a href="../index.html">Portfolio</a></p>
-			<p><i class="fas fa-lock fa-fw"></i><a href="../../privacy.html">Privacy</a></p>
-			
-		</div>
-
-		<div class="item-3">
-			<h4>About Me</h4>
-			<p>Hi, I'm Reece Wardrop. I'm a web designer and developer.</p>
-			
-			<p>I created this sample web page to showcase some of my digital creation skills.</p>
-		</div>
-
-		<div class="item-3">
-			<h4>Contact</h4>
-			<p><i class="fas fa-envelope fa-fw"></i><a href="mailto:ibat.training@gmail.com">Email</a></p>
-			<p><i class="fab fa-github-square fa-fw"></i><a href="https://www.github.com/ibat-web-dev" target="_blank">GitHub</a></p>
-			<p><i class="fab fa-linkedin fa-fw"></i><a href="https://ie.linkedin.com/school/ibat-college-dublin/" target="_blank">Linkedin</a></p>
-		</div>
-		
-	</div>
-	
-	<!-- End HTML footer -->
+    </div>
+	<!-- End container for email signup form -->
 
 
-	<!-- Begin JavaScript code showing/hiding slide-out menu -->
-    <script>
-			document.querySelector('.item-icon').addEventListener('click', toggleMobileMenu)
-		
-			function toggleMobileMenu() {
-				//toggle hamburger icon
-				let elemIcon = document.querySelector('.item-icon');
-				elemIcon.classList.toggle("change");
-			
-				//if mobile menu currently closed, open menu.
-				if (elemIcon.classList.contains('change')) {
-					document.querySelector(".container-menu-options-mobile").style.right = "0";
-				}
-				//if mobile menu currently open, close menu.
-				else {
-					document.querySelector(".container-menu-options-mobile").style.right = "-320px";
-				}
+	<!-- JavaScript for Cookie Consent Popup Message -->
+	<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+	<script>
+	window.cookieconsent.initialise({
+	  	"palette": {
+			"popup": {
+				"background": "#000"
+			},
+			"button": {
+				"background": "#f1d600"
 			}
-		</script>
-		<!-- End JavaScript code showing/hiding slide-out menu -->
+		},
+	  	"content": {
+			"href": "https://onegraphic.github.io/privacy.html"
+		}
+	});
+	</script>
 
-		 
-
-</BODY>
-</HTML>
+</body>
+</html>
