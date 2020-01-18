@@ -313,3 +313,6 @@ a.btn-ghost:hover, .btn-ghost:active {
     background-color: transparent;
     color: green
 }
+
+a.btn-soft { border-radius: 5px }
+  a.btn-round { border-radius: 25px }
