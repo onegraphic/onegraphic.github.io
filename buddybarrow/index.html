@@ -1,381 +1,653 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <link rel="icon" type="image/png" href="images/buddy.png" sizes="30x30" />
-  <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
-  <title>Buddybarrow</title>
-  <!--stylesheet-->
-  <link href="https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap" rel="stylesheet">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  <link href="styles/styles.css" rel="stylesheet" type="text/css">
-  <link href="styles/custom-responsive-styles.css" rel="stylesheet" type="text/css">
-  <!--scripts-->
-  <script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript" src="scripts/all-plugins.js"></script>
-  <script type="text/javascript" src="scripts/plugins-activate.js"></script>
+
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>buddybarrow</title>
+	<meta name="description" content="">  
+	<meta name="author" content="">
+
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">  
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/vendor.css">     
+
+   <!-- script
+   ================================================== -->   
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+
+   <!-- one
+	================================================== -->
+	<link rel="icon" type="image/png" href="one.png">
+
 </head>
 
-<body id="page-top">
-  <!-- Navigation -->
-  <div class="logo">
-      <a href="index.html">buudybarrow</a>
-   </div>		     
-  <a class="menu-toggle rounded" href="#">
-    <i class="fa fa-bars"></i>
-  </a>
-  <nav id="sidebar-wrapper">
-    <ul class="sidebar-nav">
-      <li class="sidebar-brand">
-        <a class="smooth-scroll" href="#Header"></a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="smooth-scroll" href="#page-top">Home</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="smooth-scroll" href="#About">About</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="smooth-scroll" href="#Services">Services</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="smooth-scroll" href="#Portfolio">Portfolio</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="smooth-scroll" href="#Testimonials">Testimonials</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="smooth-scroll" href="#Contact">Contact</a>
-      </li>
-    </ul>
-  </nav>
-  <!-- Header Starts -->
+<body id="top">
+
+	<!-- header 
+   ================================================== -->
+   <header>   	
+   	<div class="row">
+
+   		<div class="top-bar">
+   			<a class="menu-toggle" href="#"><span>Menu</span></a>
+
+	   		<div class="logo">
+		         <a href="index.html">buddybarrow</a>
+		      </div>		      
+
+		   	<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
+						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
+						<li><a class="smoothscroll"  href="#portfolio" title="">Gallery</a></li>
+						<li><a class="smoothscroll"  href="#services" title="">Technical</a></li>					
+						<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>	
+				
+					</ul>
+				</nav>    		
+		   </div> <!-- /top-bar --> 
+		   
+		   
+   		
+   	</div> <!-- /row --> 		
+   </header> <!-- /header -->
+
+	<!-- intro section
+   ================================================== -->
+   <section id="intro">   
+
+   	<div class="intro-overlay"></div>	
+
+   	<div class="intro-content">
+   		<div class="row">
+
+   			<div class="col-twelve">
 
 
-  <section id="Banner" class="content-section">
-    <div class="container content-wrap text-center">
-      <h1></h1>
-      <h3>
-          <em></em>
-        </h3>
-      <a class="btn btn-primary btn-xl smooth-scroll" href="#About">Find Out More</a>
-    </div>
-    <div class="overlay"></div>
-
-   <div class="videowrapper">
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/lDtOLjbvdeA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" class="fullscreen-video-wrap"></iframe>
-  </div>
- </div>
-
-  </section>
+					<div class="videowrapper">
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/lDtOLjbvdeA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" class="fullscreen-video-wrap"></iframe>
+						   </div>
+						  </div>
+				
 
 
 
 
-  <!-- Header Ends -->
-  <!-- About Us Starts -->
-  <section id="About" class="content-section">
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="block-heading">
+	   		</div>  
+   			
+   		</div>   		 		
+   	</div> <!-- /intro-content --> 
 
-            
-            <h2>About Us</h2>
-          </div>
-          <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- About Us Starts -->
-  <section id="Services" class="content-section text-center">
-    <div class="container">
-      <div class="block-heading">
-        <h2>What We Offer</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-      </div>
-      <div class="row">
-        <div class="col-md-3 col-sm-6">
-          <div class="service-box">
-            <div class="service-icon yellow">
-              <div class="front-content">
-                <i class="fa fa-globe" aria-hidden="true"></i>
-                <h3>Family Travel</h3>
-              </div>
-            </div>
-            <div class="service-content">
-              <h3>Family Travel</h3>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="service-box">
-            <div class="service-icon orange">
-              <div class="front-content">
-                <i class="fa fa-suitcase"></i>
-                <h3>Business Travel</h3>
-              </div>
-            </div>
-            <div class="service-content">
-              <h3>Business Travel</h3>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="service-box ">
-            <div class="service-icon red">
-              <div class="front-content">
-                <i class="fa fa-male" aria-hidden="true"></i>
-                <h3>Solo Travel</h3>
-              </div>
-            </div>
-            <div class="service-content">
-              <h3>Solo Travel</h3>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="service-box">
-            <div class="service-icon grey">
-              <div class="front-content">
-                <i class="fa fa-users"></i>
-                <h3>Camping</h3>
-              </div>
-            </div>
-            <div class="service-content">
-              <h3>Camping</h3>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="content-section text-center" id="Portfolio">
-    <div class="container">
-      <div class="block-heading">
-        <h2>Portfolio</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-      </div>
-      <div class="portfolio-wrapper clearfix">
-        <a class="each-portfolio" data-fancybox="gallery" href="images/p-two.jpeg">
-          <div class="content hover-cont-wrap">
-            <div class="content-overlay"></div>
-            <img class="content-image" src="images/p-two.jpeg">
-            <div class="content-details fadeIn-bottom">
-              <h5 class="p-title">Title</h5>
-              <p class="p-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              <span class="zoom"><i class="fa fa-search-plus"></i></span>
-            </div>
-          </div>
-        </a>
-        <a class="each-portfolio" data-fancybox="gallery" href="images/p-three.jpeg">
-          <div class="content hover-cont-wrap">
-            <div class="content-overlay"></div>
-            <img class="content-image" src="images/p-three.jpeg">
-            <div class="content-details fadeIn-bottom">
-              <h5 class="p-title">Title</h5>
-              <p class="p-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              <span class="zoom"><i class="fa fa-search-plus"></i></span>
-            </div>
-          </div>
-        </a>
-        <a class="each-portfolio" data-fancybox="gallery" href="images/p-four.jpeg">
-          <div class="content hover-cont-wrap">
-            <div class="content-overlay"></div>
-            <img class="content-image" src="images/p-four.jpeg">
-            <div class="content-details fadeIn-bottom">
-              <h5 class="p-title">Title</h5>
-              <p class="p-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              <span class="zoom"><i class="fa fa-search-plus"></i></span>
-            </div>
-          </div>
-        </a>
-        <a class="each-portfolio" data-fancybox="gallery" href="images/p-five.jpeg">
-          <div class="content hover-cont-wrap">
-            <div class="content-overlay"></div>
-            <img class="content-image" src="images/p-five.jpeg">
-            <div class="content-details fadeIn-bottom">
-              <h5 class="p-title">Title</h5>
-              <p class="p-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              <span class="zoom"><i class="fa fa-search-plus"></i></span>
-            </div>
-          </div>
-        </a>
-        <a class="each-portfolio" data-fancybox="gallery" href="images/p-six.jpeg">
-          <div class="content hover-cont-wrap">
-            <div class="content-overlay"></div>
-            <img class="content-image" src="images/p-six.jpeg">
-            <div class="content-details fadeIn-bottom">
-              <h5 class="p-title">Title</h5>
-              <p class="p-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              <span class="zoom"><i class="fa fa-search-plus"></i></span>
-            </div>
-          </div>
-        </a>
-        <a class="each-portfolio" data-fancybox="gallery" href="images/p-three.jpeg">
-          <div class="content hover-cont-wrap">
-            <div class="content-overlay"></div>
-            <img class="content-image" src="images/p-three.jpeg">
-            <div class="content-details fadeIn-bottom">
-              <h5 class="p-title">Title</h5>
-              <p class="p-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              <span class="zoom"><i class="fa fa-search-plus"></i></span>
-            </div>
-          </div>
-        </a>
-      </div>
-    </div>
-  </section>
-  <!-- TESTIMONIALS -->
-  <section id="Testimonials" class="content-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="block-heading">
-            <h2>Testimonials</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          </div>
-          <div id="customers-testimonials" class="owl-carousel">
-            <div class="item">
-              <div class="shadow-effect">
-                <img class="img-circle" src="images/sarah.jpg" alt="">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-              </div>
-              <div class="testimonial-name">Sarah Jenks</div>
-            </div>
-            <div class="item">
-              <div class="shadow-effect">
-                <img class="img-circle" src="images/tangelia.jpg" alt="">
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old</p>
-              </div>
-              <div class="testimonial-name">Tangelia Ekhoff</div>
-            </div>
-            <div class="item">
-              <div class="shadow-effect">
-                <img class="img-circle" src="images/john-doe.jpg" alt="">
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
-              </div>
-              <div class="testimonial-name">John Doe</div>
-            </div>
-            <div class="item">
-              <div class="shadow-effect">
-                <img class="img-circle" src="images/amy.jpg" alt="">
-                <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words</p>
-              </div>
-              <div class="testimonial-name">Amy Tan</div>
-            </div>
-            <div class="item">
-              <div class="shadow-effect">
-                <img class="img-circle" src="images/daniel.jpg" alt="">
-                <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
-              </div>
-              <div class="testimonial-name">Daniel Felsted</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- END OF TESTIMONIALS -->
-  <section id="Contact" class="content-section">
-    <div class="container">
-      <div class="block-heading">
-        <h2>Contact Us</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-      </div>
-      <div class="row">
-        <div class="col-sm-12 col-md-6 col-lg-6">
-          <div class="contact-wrapper">
-            <div class="address-block border-bottom">
-              <h3 class="add-title">Headquaters</h3>
-              <div class="c-detail">
-                <span class="c-icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span><span class="c-info">&nbsp;35 Street - Cheyenne, CO 80810</span>
-              </div>
-              <div class="c-detail">
-                <span class="c-icon"><i class="fa fa-phone" aria-hidden="true"></i></span><span class="c-info">+123 4567 898</span>
-              </div>
-              <div class="c-detail">
-                <span class="c-icon"><i class="fa fa-envelope" aria-hidden="true"></i></span><span class="c-info">email@yourdomain.com</span>
-              </div>
-            </div>
-            <div class="address-block">
-              <h3 class="add-title">Branch</h3>
-              <div class="c-detail">
-                <span class="c-icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span><span class="c-info">&nbsp;98 Berry - Cheyenne, CO 80810</span>
-              </div>
-              <div class="c-detail">
-                <span class="c-icon"><i class="fa fa-phone" aria-hidden="true"></i></span><span class="c-info">+123 4567 8987</span>
-              </div>
-              <div class="c-detail">
-                <span class="c-icon"><i class="fa fa-envelope" aria-hidden="true"></i></span><span class="c-info">email@yourdomain.com</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-6">
-          <div class="form-wrap">
-            <form action="javascript:void(0)" method="post">
-              <div class="fname floating-label">
-                <input type="text" class="floating-input" name="full name" />
-                <label for="title">First Name</label>
-              </div>
-              <div class="fname floating-label">
-                <input type="text" class="floating-input" name="full name" />
-                <label for="title">Last Name</label>
-              </div>
-              <div class="email floating-label">
-                <input type="email" class="floating-input" name="email" />
-                <label for="email">Email</label>
-              </div>
-              <div class="contact floating-label">
-                <input type="tel" class="floating-input" name="contact" />
-                <label for="email">Mobile</label>
-              </div>
-              <div class="company floating-label">
-                <textarea type="text" class="floating-input" name="company" /></textarea>
-                <label for="email">Message</label>
-              </div>
-              <div class="submit-btn">
-                <button type="submit">Submit</button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <footer class="footer text-center">
-    <div class="container">
-      <ul class="list-inline">
-        <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="javascript:void(0)">
-              <i class="fa fa-facebook" aria-hidden="true"></i>
-            </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="javascript:void(0)">
-              <i class="fa fa-twitter" aria-hidden="true"></i>
-            </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white" href="javascript:void(0)">
-              <i class="fa fa-linkedin" aria-hidden="true"></i>
-            </a>
-        </li>
-      </ul>
-      <p class="text-muted small mb-0">Copyright © Your Website 2018</p>
-      <p class="text-muted small mb-0">Designed by <a href="https://www.position2.com/" target="_balnk">Position2</p>
-    </div>
-  </footer>
+   	<ul class="intro-social">  
+			     
+         
+         
+      </ul> <!-- /intro-social -->      	
+
+   </section> <!-- /intro -->
+
+
+   <!-- about section
+   ================================================== -->
+   <section id="about">  
+
+   	<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>About</h5>
+   			
+   			<h1><img src="images/logo.png" alt="logo">
+			<a href="#modal-05" class="overlay"></h1>
+   				
+   			   			
+
+   	<div class="row about-content">
+
+   		<div class="col-six tab-full">
+
+   			<h3>BUDDY BARROW </h3>
+   			<p>
+
+					The electric cordless wheelbarrow is suitable for daily use at home, in the garden and on a construction site. The motorized wheelbarrow enables easy handling and the transport of heavy loads. It has ergonomic grip handles, reverse drive and electric wheel with bearing. So it is characterized by ease of operation and handling. Due to the high-capacity Li-Ion battery and electric drive with variable performance of up to 500 watts, it pulls up to 150 kg uphill and can operate on a single charge in regular use for 2-3 weeks, up to 8 hours continuously or a distance of up to 10 km. Due to the stainless steel construction and the HDPE plastic container, the AKU wheelbarrow is characterized by exceptional durability and life. Moreover, thanks to its disassembly and folding capabilities, this wheelbarrow can be stored and transported very easily. </p>
+
+
+		   </div>
+		   
+	            		                  
+		   <div class="col-six tab-full">
+
+				<h3></h3>
+				<p></p>
+ 
+				 <ul class="skill-bars">
+					<li>
+						<div class="progress percent100"><span>8 hours</span></div>
+						<strong>BATTERY</strong>
+					</li>
+					<li>
+							<div class="progress percent100"><span>1,5 – 3 hr</span></div>
+							<strong>CHARGING PERIOD</strong>
+						</li>
+						
+					<li>
+							<div class="progress percent100"><span>150 kg</span></div>
+							<strong>HOLDS</strong>
+						</li>
+						
+						<li>
+								<div class="progress percent100"><span>500W </span></div>
+								<strong>POWER</strong>
+							</li>
+							<li>
+									<div class="progress percent100"><span>BRUSHLESS</span></div>
+									<strong>MOTOR TYPE</strong>
+								</li>
+								<li>
+										<div class="progress percent100"><span>10 - 30KM</span></div>
+										<strong>DISTANCE</strong>
+									</li>
+							<li>
+									<div class="progress percent100"><span>23 - 28 kg</span></div>
+									<strong>WEIGHT</strong>
+								</li>
+
+								
+					
+						<li>
+								<div class="progress percent100"><span>10 YEARS </span></div>
+									<strong>WARRANTY</strong>
+								</li>
+						
+						 
+ 
+			</div>
+ 
+		</div>
+
+   	<div class="row button-section">
+   		<div class="col-twelve">
+   			<a href="#contact" title="Contact Me" class="button stroke smoothscroll">Contact Me</a>
+   		</div>   		
+   	</div>
+
+   </section> <!-- /process-->  
+     
+	</section> <!-- /features -->
+
+	<!-- Portfolio Section
+   ================================================== -->
+	<section id="portfolio">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>GALLERY</h5>
+   			<h1></h1>
+
+
+   		</div>   		
+   	</div> <!-- /section-intro--> 
+
+   	<div class="row portfolio-content">
+
+   		<div class="col-twelve">
+
+   			<!-- portfolio-wrapper -->
+	         <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+
+	         	<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/Photography.jpg" alt="Photography">
+	                  <a href="#modal-01" class="overlay">	                  	           
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+		     					       <h3 class="folio-title"></h3>	     					    
+		     					    	 <span class="folio-types">
+											
+		     					       </span>
+		     					   </div>	                      	
+	                     </div>                    
+	                  </a>
+	               </div>	               
+	        		</div> <!-- /folio-item -->
+
+	        		<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/Flash-Pack.jpg" alt="Flash-Pack">
+	               	<a href="#modal-02" class="overlay">              		                  
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title"></h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  
+		     					      </span>		     		
+		     					   </div> 	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->
+
+	            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/BARE.jpg"alt="BARE">
+	                  <a href="#modal-03" class="overlay">             		                  
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title"></h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  
+		     					      </span>		     		
+		     					   </div> 	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->
+
+	            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/corrig.jpg" alt="corrig">
+	                  <a href="#modal-04" class="overlay">                  	                 
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title"></h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  
+		     					      </span>		     		
+		     					   </div>  	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->     
+
+	        		<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/bridgesofdublin.jpg" alt="bridgesofdublin">
+	                  <a href="#modal-05" class="overlay">             		                  
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title"></h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  
+		     					      </span>		     		
+		     					   </div> 	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->
+
+	            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/mane.jpg" alt="mane">
+	                  <a href="#modal-06" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title"></h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  
+		     					      </span>		     		
+		     					   </div>	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->   
+
+	            <!-- modal popups - begin
+	            ============================================================= -->
+	            <div id="modal-01" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4></h4>		      
+					      <p></p>
+
+					      <div class="categories"></div>			               
+					   </div>
+
+			         <div class="link-box">
+							<img src="images/portfolio/Photography.jpg" alt="Photography">
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-01 -->
+
+				   <div id="modal-02" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4></h4>		      
+					      <p></p>
+
+					      <div class="categories"></div>			               
+					   </div>
+
+			         <div class="link-box">
+							<img src="images/portfolio/Flash-Pack.jpg" alt="Flash-Pack">
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-02 -->
+
+				   <div id="modal-03" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+							<img src="" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4></h4>		      
+					      <p></p>
+
+					      <div class="categories"></div>			               
+					   </div>
+
+					   <div class="media">
+							<img src="images/portfolio/modals/BARE.jpg" alt="bare">
+							<a href="#" class="popup-modal-dismiss">Close</a>
+						</div>    
+
+				   </div> <!-- /modal-03 -->
+
+				   <div id="modal-04" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/m-corrig.jpg" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4></h4>		      
+					      <p></p> 
+
+					      <div class="categories"></div>			               
+					   </div>
+
+			         <div class="link-box">
+							<img src="images/portfolio/corrig.jpg" alt="corrig">
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-04 -->
+
+				   <div id="modal-05" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4></h4>		      
+					      <p></p>
+
+					      <div class="categories"></div>			               
+					   </div>
+
+			         <div class="link-box">
+							<img src="images/portfolio/bridgesofdublin.jpg" alt="bridgesofdublin">
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-05 -->
+
+				   <div id="modal-06" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4></h4>		      
+					      <p></p>
+
+					      <div class="categories"></div>			               
+					   </div>
+
+			         <div class="link-box">
+							<img src="images/portfolio/mane.jpg" alt="mane">
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-06 -->
+
+
+				   <!-- modal popups - end
+	            ============================================================= -->
+
+	         </div> <!-- /portfolio-wrapper --> 
+
+   		</div>  <!-- /twelve -->   
+
+   	</div> <!-- /portfolio-content --> 
+		
+	</section> <!-- /portfolio --> 
+
+
+	
+	<!-- services Section
+   ================================================== -->
+	<section id="services">
+
+		<div class="overlay"></div>
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>TENCHNICAL</h5>
+   			<h1>ADVANTAGES OF BUDDY BARROW</h1>
+
+   			<p class="lead"></p>
+
+   		</div>   		
+   	</div> <!-- /section-intro -->
+
+   	<div class="row services-content">
+
+   		<div id="owl-slider" class="owl-carousel services-list">
+
+	      	<div class="service">	
+
+	      		<span class="icon"><i class="icon-earth"></i></span>            
+
+	            <div class="service-content">	
+
+	            	 <h3>INDESTRUCTIBLE STRUCTURE</h3>
+
+		            <p class="desc">FIXED STAINLESS STEEL FRAME AND EXTREMELY RESISTANT HDPE PLASTIC CONTAINER
+	         		</p>
+	         		
+				 </div> 	
+				 
+				</div> <!-- /service -->
+
+				<div class="service">
+ 
+					<span class="icon"><i class="icon-image"></i></span>	            
+ 
+				 <div class="service-content">
+ 
+					 <h3>PROPULSIVE UNIT</h3>
+ 
+					 <p class="desc">BI-DIRECTIONAL ELECTROMOTOR WITH PERFORMANCE OF 500 W, SITUATED WHEELBARROW WHEEL
+						 </p> 
+ 
+				 </div>	      				 
+
+
+				</div> <!-- /service -->
+
+				<div class="service">	
+
+					<span class="icon"><i class="icon-window"></i></span>                          
+
+	            <div class="service-content">	
+
+	            	<h3>OPERATING PERIOD</h3>  
+
+		            <p class="desc"> 2-3 WEEKS ON ONE CHARGE IN REGULAR USE, CONTINUOUSLY OVER 8 HOURS OR 10 km
+	         		</p>
+
+	            </div>	                              	                           
+
+	      </div> <!-- /services-list -->
+   		
+   	</div> <!-- /services-content -->
+		
+	</section> <!-- /services -->	
+
+
+	
+
+	
+   <!-- contact
+   ================================================== -->
+	<section id="contact">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Contact</h5>
+   			<h1>Always happy to hear from you.</h1>
+
+   			<p class="lead">     </p>
+
+   		</div> 
+   	</div> <!-- /section-intro -->
+
+   	<div class="row contact-form">
+
+   		<div class="col-twelve">
+
+            <!-- Forn begins here -->
+		<form id="email-signup-form" name="email-signup-form" accept-charset="utf-8"  method="post" action="https://formspree.io/reecewardrop@gmail.com">
+			<div class="flex-row">
+				<label for="email-address">Email:</label>
+                <input type="text" id="email-address" name="email-address" placeholder="Your email address" maxlength="80" autocapitalize="none" required>
+                <input type="hidden" name="_subject" id="email-subject" value="Email Signup Form Submission">
+				<button id="btn-submit" type="submit" class="btn-submit">e-mail<i class="fas fa-envelope"></i></button>
+			</div>
+		</form>
+        <!-- Form ends here -->
+
+      			</fieldset>
+      		</form> <!-- Form End -->
+
+            <!-- contact-warning -->
+            <div id="message-warning">            	
+            </div>            
+            <!-- contact-success -->
+      		<div id="message-success">
+               <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+      		</div>
+
+         </div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /contact-form -->
+
+   	<div class="row contact-info">
+
+   		<div class="col-four tab-full">
+
+   			<div class="icon">
+   				<i class="icon-pin"></i>
+   			</div>
+
+   			<h5>Where to find me</h5>
+
+   			<p>
+            Portarlington<br>
+            Co.Laois<br>
+            Ireland
+            </p>
+
+   		</div>
+
+   		<div class="col-four tab-full collapse">
+
+   			<div class="icon">
+   				<i class="icon-mail"></i>
+   			</div>
+
+   			<h5>Email Me At</h5>
+
+   			<p>info@buddybarrow.ie<br>
+			   			     
+			   </p>
+
+   		</div>
+
+   		<div class="col-four tab-full">
+
+   			<div class="icon">
+   				<i class="icon-phone"></i>
+   			</div>
+
+   			<h5>Call Me At</h5>
+
+   			<p>Phone: (086) 858 0529<br>
+		
+			   </p>
+
+   		</div>
+   		
+   	</div> <!-- /contact-info -->
+		
+	</section> <!-- /contact -->
+
+
+   <!-- footer
+   ================================================== -->
+
+		  
+		  <h4>Social Links</h4>
+		<div class="fly-out-social-icons">
+
+			<a href="https://www.instagram.com/reecewardrop/" target="_blank"><i class="fab fa-instagram"></i></a>
+			<a href="https://www.facebook.com/reecewardrop" target="_blank"><i class="fab fa-facebook-square"></i></a>
+		</div>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+	</div>
+
+      	<div class="col-six tab-full">
+	      	<div class="copyright">
+		        	<span>© Copyright onegraphic 2020.</span> 
+		        	<span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>	         	
+		         </div>		                  
+	      	</div>
+
+	      	<div id="go-top">
+		         <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+		      </div>
+
+      	</div> <!-- /row -->     	
+   </footer>  
+
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
+
+   <!-- Java Script
+   ================================================== --> 
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
+
 </body>
 
 </html>
